@@ -1,0 +1,80 @@
+:root {
+    --dark: #2E3C40;
+    --red: #B74242;
+    --secondary: #EDE9D6;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark);
+    color: var(--dark);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: normal;
+  }
+  
+  .stage {
+    position: relative;
+    min-width: 745px;
+    min-height: 1008px;
+    visibility: hidden;
+    cursor: pointer;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4), 0 2px 2px rgba(0, 0, 0, 0.4), 0 4px 4px rgba(0, 0, 0, 0.4), 0 8px 8px rgba(0, 0, 0, 0.4), 0 16px 16px rgba(0, 0, 0, 0.4), 0 32px 32px rgba(0, 0, 0, 0.4), 0 16px 64px rgba(0, 0, 0, 0.4);
+  }
+  
+  .poster {
+    position: absolute;
+    z-index: 0;
+    width: 745px;
+    height: 1008px;
+  }
+  
+  .border-txt text {
+    text-anchor: "middle";
+  }
+  
+  .circles__red circle,
+  .eleven-tops,
+  .goo-base {
+    visibility: hidden;
+  }
+  
+  .afk-1,
+  .afk-2,
+  .afk-3 {
+    stroke-width: 20px;
+    fill: none;
+  }
+  
+  .afk-1 {
+    stroke: #6060A6;
+  }
+  
+  .afk-2 {
+    stroke: #B74242;
+  }
+  
+  .afk-3 {
+    stroke: #2E3C40;
+  }
+  
+  .anniversary {
+    font-size: 24px;
+  }
