@@ -1,6 +1,6 @@
 <div align="center">
 
-# Text Animation for Spotify | Crimson
+# GSAP & SVG Animation | Crimson
 
 <img src="admin/base.png">
 
